@@ -12,8 +12,9 @@
 This is re-based version of FireFox extension Tab Scope by Gomita</em:description>
 		<em:creator>fifonik</em:creator>
 		<em:developer>Gomita</em:developer>
-		<em:optionsURL>chrome://tabscope/content/prefs.xul</em:optionsURL>
+		<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 
+		<em:optionsURL>chrome://tabscope/content/prefs.xul</em:optionsURL>
 		<em:multiprocessCompatible>true</em:multiprocessCompatible>
 
 		<em:localized>
@@ -23,6 +24,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:description>タブ上でポップアップを表示してページのプレビューおよびナビゲーションを可能にします。</em:description>
 				<em:creator>fifonik</em:creator>
 				<em:developer>ごみた</em:developer>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -33,6 +35,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>ibraheem_alex</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -43,6 +46,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>CatTranslations</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -53,6 +57,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>PetrTwo</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -63,6 +68,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>o.roth (ReinekeFux) von BabelZilla.org</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -73,6 +79,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>Γιώργος Μαλαμάς</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -83,6 +90,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>acushnir</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -93,6 +101,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>chuzo</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -103,6 +112,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>mdr.ksk</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -113,6 +123,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>myahoo</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -123,6 +134,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>mendinho</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -133,6 +145,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>SiiiE</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -143,6 +156,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>Cashman</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -153,6 +167,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>wtspout</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -163,6 +178,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>markh</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -173,6 +189,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>Leszek(teo)Życzkowski</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -183,6 +200,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>humbertosartini</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -193,6 +211,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>lloco</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -203,6 +222,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>Quicksilver tears</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -213,6 +233,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>martinco78</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -223,6 +244,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>DakSrbija</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -233,6 +255,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>Mikael Hiort af Ornäs</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -243,6 +266,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>yaryi</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -253,6 +277,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>longnh</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -263,6 +288,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>fang5566</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 		<em:localized>
@@ -273,6 +299,7 @@ This is re-based version of FireFox extension Tab Scope by Gomita</em:descriptio
 				<em:creator>fifonik</em:creator>
 				<em:developer>Gomita</em:developer>
 				<em:translator>June</em:translator>
+				<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>
 			</Description>
 		</em:localized>
 
