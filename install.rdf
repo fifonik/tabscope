@@ -5,11 +5,11 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>tabscope@fifonik</em:id>
 		<em:type>2</em:type>
-		<em:name>Tab Scope PM</em:name>
-		<em:version>1.6.3</em:version>
-		<em:description>Previews and navigates tab contents through popup.
 
-This is re-based version of FireFox extension Tab Scope by Gomita</em:description>
+    <em:name>Tab Scope PM</em:name>
+		<em:version>1.6.3</em:version>
+		<em:description>Previews and navigates tab contents through popup.</em:description>
+
 		<em:creator>fifonik</em:creator>
 		<em:developer>Gomita</em:developer>
 		<em:homepageURL>https://github.com/fifonik/tabscope</em:homepageURL>

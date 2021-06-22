@@ -7,23 +7,26 @@
 <!DOCTYPE prefwindow SYSTEM "chrome://tabscope/locale/prefs.dtd">
 
 <prefwindow id="tabscopePrefs"
-            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-            title="Tab Scope - &tabscope.options;"
-            onload="PrefsUI.init();"
-            ondialoghelp="PrefsUI.openHelpURI();"
-            ondialogaccept="PrefsUI.applyPrefsChange();">
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="Tab Scope - &tabscope.options;"
+	onload="PrefsUI.init();"
+	ondialoghelp="PrefsUI.openHelpURI();"
+	ondialogaccept="PrefsUI.applyPrefsChange();"
+>
 
 	<prefpane id="generalPane" helpTopic="general" label="&tabscope.general;" flex="1">
 		<preferences>
 			<preference id="popup_style" name="extensions.tabscope.popup_style" type="string"
-			            onchange="PrefsUI.applyPrefsChange();" />
+				onchange="PrefsUI.applyPrefsChange();"
+			/>
 			<preference id="popup_alignment" name="extensions.tabscope.popup_alignment" type="int" />
 			<preference id="popup_delay"     name="extensions.tabscope.popup_delay"     type="int" />
 			<preference id="preview_width"  name="extensions.tabscope.preview_width"  type="int" />
 			<preference id="preview_height" name="extensions.tabscope.preview_height" type="int" />
 			<preference id="zoom_ratio" name="extensions.tabscope.zoom_ratio" type="string" />
 			<preference id="animate_fade" name="extensions.tabscope.animate_fade" type="int"
-			            onchange="PrefsUI.applyPrefsChange();" />
+				onchange="PrefsUI.applyPrefsChange();"
+			/>
 			<preference id="animate_move" name="extensions.tabscope.animate_move" type="int" />
 			<preference id="animate_zoom" name="extensions.tabscope.animate_zoom" type="int" />
 			<preference id="tab_exceptions" name="extensions.tabscope.tab_exceptions" type="int" />
@@ -42,8 +45,9 @@
 							<menuitem label="&tabscope.popup_style.flat;" value="" />
 							<menuitem label="&tabscope.popup_style.dark;" value="dark" />
 							<menuitem label="Aero Glass" value="aero" disabled="true"
-							          oncommand="PrefsUI.onAeroSelected(this.getAttribute('_notice'));"
-							          _notice="&tabscope.popup_style.aero.notice;" />
+								oncommand="PrefsUI.onAeroSelected(this.getAttribute('_notice'));"
+								_notice="&tabscope.popup_style.aero.notice;"
+							/>
 						</menupopup>
 					</menulist>
 				</row>
@@ -67,8 +71,9 @@
 			<label value="&tabscope.popup_delay.2;" />
 		</hbox>
 		<checkbox label="&tabscope.current_tab;" preference="tab_exceptions"
-		          onsyncfrompreference="return document.getElementById('tab_exceptions').value &amp; 1;"
-		          onsynctopreference="return this.checked ? 1 : 0;" />
+			onsyncfrompreference="return document.getElementById('tab_exceptions').value &amp; 1;"
+			onsynctopreference="return this.checked ? 1 : 0;"
+		/>
 		<checkbox label="&tabscope.unloaded_tab;" preference="unloaded_tab" />
 		<groupbox>
 			<caption label="&tabscope.preview_size;" />
@@ -90,24 +95,29 @@
 		<groupbox _uigroup="animate">
 			<caption label="&tabscope.animate;" />
 			<checkbox label="&tabscope.animate_fade;" preference="animate_fade"
-			          onsyncfrompreference="return document.getElementById('animate_fade').value > 0;"
-			          onsynctopreference="return this.checked ? 200 : 0; " />
+				onsyncfrompreference="return document.getElementById('animate_fade').value > 0;"
+				onsynctopreference="return this.checked ? 200 : 0; "
+			/>
 			<hbox align="center" _uigroup="animate_move">
 				<checkbox label="&tabscope.animate_move;"
-				          oncommand="PrefsUI.writeAnimatePref('animate_move');" />
+					oncommand="PrefsUI.writeAnimatePref('animate_move');"
+				/>
 				<spacer minwidth="10" flex="1" />
 				<label value="&tabscope.animate.slow;" />
 				<scale min="2" max="6" increment="1" movetoclick="true" dir="reverse"
-				       onchange="PrefsUI.writeAnimatePref('animate_move');" />
+					onchange="PrefsUI.writeAnimatePref('animate_move');"
+				/>
 				<label value="&tabscope.animate.fast;" />
 			</hbox>
 			<hbox align="center" _uigroup="animate_zoom">
 				<checkbox label="&tabscope.animate_zoom;"
-				          oncommand="PrefsUI.writeAnimatePref('animate_zoom');" />
+					oncommand="PrefsUI.writeAnimatePref('animate_zoom');"
+				/>
 				<spacer minwidth="10" flex="1" />
 				<label value="&tabscope.animate.slow;" />
 				<scale min="1" max="5" increment="1" movetoclick="true" dir="reverse"
-				       onchange="PrefsUI.writeAnimatePref('animate_zoom');" />
+					onchange="PrefsUI.writeAnimatePref('animate_zoom');"
+				/>
 				<label value="&tabscope.animate.fast;" />
 			</hbox>
 		</groupbox>
@@ -116,19 +126,23 @@
 	<prefpane id="advancedPane" helpTopic="advanced" label="&tabscope.advanced;" flex="1">
 		<preferences>
 			<preference id="popup_hovering"  name="extensions.tabscope.popup_hovering"  type="bool"
-			            onchange="PrefsUI.applyPrefsChange();" />
+				onchange="PrefsUI.applyPrefsChange();"
+			/>
 			<preference id="click.0" name="extensions.tabscope.click.0" type="string" />
 			<preference id="click.1" name="extensions.tabscope.click.1" type="string" />
 			<preference id="click.2" name="extensions.tabscope.click.2" type="string" />
 			<preference id="toolbar_display" name="extensions.tabscope.toolbar_display" type="int"
-			            onchange="PrefsUI.updateToolbarUI(); PrefsUI.applyPrefsChange();" />
+				onchange="PrefsUI.updateToolbarUI(); PrefsUI.applyPrefsChange();"
+			/>
 			<preference id="buttons" name="extensions.tabscope.buttons" type="string" />
 			<preference id="backmonitor" name="extensions.tabscope.backmonitor" type="bool" />
 		</preferences>
 		<checkbox preference="backmonitor" label="&tabscope.backmonitor;"
-		          tooltiptext="&tabscope.backmonitor.tooltiptext;" />
+			tooltiptext="&tabscope.backmonitor.tooltiptext;"
+		/>
 		<checkbox preference="popup_hovering" label="&tabscope.hovering;"
-		          onsyncfrompreference="PrefsUI.readHoveringPref();" />
+			onsyncfrompreference="PrefsUI.readHoveringPref();"
+		/>
 		<groupbox _uigroup="clicks">
 			<caption label="&tabscope.clicks;" />
 			<grid>

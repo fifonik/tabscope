@@ -3,26 +3,29 @@
 <?xml-stylesheet href="chrome://tabscope/skin/overlay.css" type="text/css"?>
 
 <overlay id="tabscopeOverlay"
-         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-         xmlns:html="http://www.w3.org/1999/xhtml">
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+>
 
 	<script type="application/x-javascript" src="chrome://tabscope/content/overlay.js" />
 
 	<popupset id="mainPopupSet">
 		<panel id="tabscope-popup" noautofocus="true" noautohide="true"
-		       consumeoutsideclicks="false"
-		       onpopupshowing="TabScope.handleEvent(event);"
-		       onpopupshown="TabScope.handleEvent(event);"
-		       onpopuphiding="TabScope.handleEvent(event);"
-		       onmouseout="TabScope.handleEvent(event);"
-		       onclick="TabScope.handleEvent(event);">
+			consumeoutsideclicks="false"
+			onpopupshowing="TabScope.handleEvent(event);"
+			onpopupshown="TabScope.handleEvent(event);"
+			onpopuphiding="TabScope.handleEvent(event);"
+			onmouseout="TabScope.handleEvent(event);"
+			onclick="TabScope.handleEvent(event);"
+		>
 			<vbox id="tabscope-container">
 				<stack>
 					<html:canvas id="tabscope-preview" top="0" left="0" />
 					<toolbar id="tabscope-toolbar" top="0" fullscreentoolbar="true"
-					         onclick="if (event.button == 0) event.stopPropagation();"
-					         ondblclick="TabScope.handleEvent(event);"
-					         oncommand="TabScope.handleEvent(event);">
+						onclick="if (event.button == 0) event.stopPropagation();"
+						ondblclick="TabScope.handleEvent(event);"
+						oncommand="TabScope.handleEvent(event);"
+					>
 						<toolbarbutton id="tabscope-back-button" />
 						<toolbarbutton id="tabscope-forward-button" />
 						<toolbarbutton id="tabscope-reload-button" />
